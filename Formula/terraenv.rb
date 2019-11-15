@@ -1,4 +1,4 @@
-class TerraEnv < Formula
+class Terraenv < Formula
   TERRAENV_VERSION = "0.1".freeze
 
   desc "Installs Terraenv from github"
@@ -8,7 +8,7 @@ class TerraEnv < Formula
   sha256 '90346d516c54e3e3e7735ebb040fc136a8a3e2fc3c10f1c2fb2139c4c670be85'
 
   def install
-    bin.install 'TerraEnv'
+    bin.install 'Terraenv'
   end
 
   test do
