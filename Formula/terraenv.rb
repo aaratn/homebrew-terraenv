@@ -8,7 +8,7 @@ class Terraenv < Formula
   sha256 '90346d516c54e3e3e7735ebb040fc136a8a3e2fc3c10f1c2fb2139c4c670be85'
 
   def install
-    bin.install 'Terraenv'
+    bin.install 'terraenv_osx'
   end
 
   test do
