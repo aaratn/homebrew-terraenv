@@ -8,7 +8,7 @@ class Terraenv < Formula
   sha256 '72008e06df18c5f8b92f7d3be109117b28657d147bf6540d2e1d27d3aa21cc4b'
 
   def install
-    bin.install 'dist/terraenv'
+    bin.install 'terraenv'
   end
 
   test do
