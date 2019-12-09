@@ -1,5 +1,5 @@
 class Terraenv < Formula
-  TERRAENV_VERSION = "0.5".freeze
+  TERRAENV_VERSION = "v0.5".freeze
 
   desc "Installs Terraenv from github"
   homepage "https://github.com/aaratn/terraenv"
