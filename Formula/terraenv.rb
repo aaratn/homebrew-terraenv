@@ -5,7 +5,7 @@ class Terraenv < Formula
   homepage "https://github.com/aaratn/terraenv"
   url "https://github.com/aaratn/terraenv/releases/download/#{TERRAENV_VERSION}/terraenv_osx_x64.tar.gz"
   version #{TERRAENV_VERSION}
-  sha256 '38e4f2c4357d53b31e2f0d8d87b7753782daae171c1f08f90b2c95d4ee4bc120'
+  sha256 'b6dcc62db7c6395dfb3baa7d8f0641918ae4603a5afb05db2a6b7b26d8205d8b'
 
   def install
     bin.install 'terraenv'
