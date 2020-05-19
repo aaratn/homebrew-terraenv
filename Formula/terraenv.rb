@@ -1,11 +1,11 @@
 class Terraenv < Formula
-  TERRAENV_VERSION = "v0.8".freeze
+  TERRAENV_VERSION = "v0.9".freeze
 
   desc "Installs Terraenv from github"
   homepage "https://github.com/aaratn/terraenv"
   url "https://github.com/aaratn/terraenv/releases/download/#{TERRAENV_VERSION}/terraenv_osx_x64.tar.gz"
   version #{TERRAENV_VERSION}
-  sha256 '4160cd8bea4aec3ad323e2b32cb9dd7a0389b2c88eb0aa41f3d79eaa0dc733c9'
+  sha256 'd5ccf171b44cbaec899b5b59d1bcc1e5cc19da725763e0b105daad19491cfc6e'
 
   def install
     bin.install 'terraenv'
